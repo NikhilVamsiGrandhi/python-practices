@@ -35,3 +35,15 @@ def count_occurrences(tup):
 my_tuple = (1, 2, 2, 3, 3, 3, 4, 4, 4, 4)
 result = count_occurrences(my_tuple)
 print(result)  # Output: {1: 1, 2: 2, 3: 3, 4: 4}
+
+
+#Merge Two Sorted Tuples into One Sorted Tuple
+
+def merge_sorted_tuples(tuple1, tuple2):
+    merged_tuple = tuple(sorted(tuple1 + tuple2))
+    return merged_tuple
+
+tuple1 = (1, 3, 5, 7)
+tuple2 = (2, 4, 6, 8)
+result = merge_sorted_tuples(tuple1, tuple2)
+print(result)  # Output: (1, 2, 3, 4, 5, 6, 7, 8)
