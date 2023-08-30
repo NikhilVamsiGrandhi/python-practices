@@ -8,7 +8,7 @@ print(length)
 
 
 #string operations
-'''
+
 str = "Hello"
 str1 = " world"
 print(str*3) # prints HelloHelloHello
@@ -19,7 +19,7 @@ print('w' in str) # prints false as w is not present in str
 print('wo' not in str1) # prints false as wo is present in str1.'''
 
 #diamond
-'''
+
 n=int(input("Enter a number: "))
 
 for i in range(1,n+1):
@@ -35,7 +35,7 @@ for i in range(1,n+1):
 #String Manipulation with reversed and with out it
 
 #1
-'''
+
 sentence = "Python is an amazing language"
 sentence=sentence.split()
 reversed_sentence = ' '.join(sentence[::-1])
@@ -45,7 +45,7 @@ print(reversed_sentence)
 sentence = "Python is an amazing language"
 # Reverse the sentence
 reversed_sentence = ' '.join(reversed(sentence.split()))
-print(reversed_sentence)'''
+print(reversed_sentence)
 
 #re module (uses)
 
