@@ -30,3 +30,13 @@ def longest_increasing_subsequence(sequence):
 
 sequence = [10, 22, 9, 33, 21, 50, 41, 60, 80]
 print(longest_increasing_subsequence(sequence))
+
+
+# smallest sum of n elements
+
+num=sorted(list(map(int,input().split(',')))) # 9,8,7,4,5,6,1,2,3
+index=int(input())                            # 4
+sum=0
+for i in range(index):
+    sum+=num[i]
+print(sum)                                    # output:- 10
